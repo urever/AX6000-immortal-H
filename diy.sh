@@ -11,6 +11,10 @@ git clone --filter=blob:none --depth 1 --single-branch https://github.com/hubbyl
 git clone --filter=blob:none --depth 1 --single-branch https://github.com/hubbylei/luci-app-cloudflarespeedtest -b main package/custom/luci-app-cloudflarespeedtest
 git clone --filter=blob:none --depth 1 --single-branch https://github.com/hubbylei/luci-theme-bootstrap-mod -b main package/custom/luci-theme-bootstrap-mod
 git clone --filter=blob:none --depth 1 --single-branch https://github.com/immortalwrt/packages -b openwrt-24.10 tmp/packages
+git clone --filter=blob:none --depth 1 --single-branch https://github.com/immortalwrt/packages -b openwrt-24.10 tmp/packages
+git clone --filter=blob:none --depth 1 --single-branch https://github.com/destan19/OpenAppFilter -b openwrt-24.10 tmp/packages
+
+
 
 cp -rf package/custom/openwrt-passwall/luci-app-passwall package/custom/
 rm -rf package/custom/passwall-packages/.git*
